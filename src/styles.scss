@@ -46,8 +46,44 @@ $custom-bluegrey: (
     )
 );
 
-$ng-kanban-primary: mat-palette($custom-bluegrey);
-$ng-kanban-accent: mat-palette($custom-bluegrey, A200, A100, A400);
+$custom-bluegrey2: (
+    50 : #edf3f4,
+    100 : #d3e2e3,
+    200 : #b6cfd0,
+    300 : #98bcbd,
+    400 : #82adae,
+    500 : #6c9fa0,
+    600 : #649798,
+    700 : #598d8e,
+    800 : #4f8384,
+    900 : #3d7273,
+    A100 : #c8feff,
+    A200 : #95fdff,
+    A400 : #62fcff,
+    A700 : #48fcff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+
+
+
+$ng-kanban-primary: mat-palette($custom-bluegrey2);
+$ng-kanban-accent: mat-palette($custom-bluegrey2, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $ng-kanban-warn: mat-palette($mat-red);
