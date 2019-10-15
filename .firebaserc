@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "relaycircuit-216da": {
+      "hosting": {
+        "ng-kanban": [
+          "relaycircuit-216da"
+        ]
+      }
+    }
+  }
+}
