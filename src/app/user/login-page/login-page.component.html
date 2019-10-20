@@ -12,10 +12,11 @@
 
     <div *ngIf="afAuth.authState | async as user">
         <p>
-            Logged in as <strong>{{ user.email }}</strong>
+            Logged in as {{ user.email }}
         </p>
 
         <button mat-stroked-button (click)="afAuth.auth.signOut()">Logout</button>
 
     </div>
+
 </main>

@@ -82,8 +82,8 @@ $custom-bluegrey2: (
 
 
 
-$ng-kanban-primary: mat-palette($custom-bluegrey2);
-$ng-kanban-accent: mat-palette($custom-bluegrey2, A200, A100, A400);
+$ng-kanban-primary: mat-palette($custom-bluegrey);
+$ng-kanban-accent: mat-palette($custom-bluegrey, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $ng-kanban-warn: mat-palette($mat-red);
